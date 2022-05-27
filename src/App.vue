@@ -18,7 +18,7 @@
     <div class="rodrigo">
       <h1>Rodrigo Patricio</h1>
       <h2>UI • UX • FRONT-END</h2>
-      <a href="@/assets/doc\RodrigoPatricio.pdf" download="RodrigoPatricio.pdf"><button>Download Resume</button></a>
+      <a href="@/assets/doc/RodrigoPatricio.pdf" download><button>Download Resume</button></a>
     </div>
 
     <img id="arrow" src="@/assets/icons/arrow.png" alt="arrow" />
@@ -109,6 +109,10 @@ export default {
 <style>
 @import url("@/assets/base.css");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@800&display=swap");
+@font-face {
+    font-family: Segoe UI;
+    src:local("@/assets/fonts/Segoe UI Bold.ttf");
+}
 .showcase {
   background: url("@/assets/background.png") no-repeat;
   background-size: cover;
@@ -128,7 +132,7 @@ export default {
 }
 
 .social-medias p {
-  font-family: "Segoe UI";
+  font-family: Segoe UI;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -156,7 +160,7 @@ export default {
 .rodrigo h2 {
   margin: 10px 0 80px 0;
 
-  font-family: "Segoe UI";
+  font-family: Segoe UI;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -180,7 +184,7 @@ export default {
   color: #ffffff;
 }
 .about p {
-  font-family: Segoe UI, sans-serif;
+  font-family: Segoe UI;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -199,7 +203,7 @@ export default {
   flex-wrap: wrap;
 }
 .tech h5 {
-  font-family: "Segoe UI";
+  font-family: Segoe UI;
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -209,7 +213,7 @@ export default {
   color: #000000;
 }
 .tech p {
-  font-family: "Segoe UI";
+  font-family: Segoe UI;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -234,7 +238,7 @@ export default {
   color: #000000;
 }
 .works p {
-  font-family: "Segoe UI";
+  font-family: Segoe UI;
   font-style: normal;
   font-weight: 350;
   font-size: 40px;
@@ -270,7 +274,7 @@ export default {
 }
 
 .social-medias-red p {
-  font-family: "Segoe UI";
+  font-family: Segoe UI;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
