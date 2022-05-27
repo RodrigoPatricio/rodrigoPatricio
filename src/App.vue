@@ -111,7 +111,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@800&display=swap");
 @font-face {
     font-family: Segoe;
-    src:local("@/assets/fonts/Segoe UI Bold.ttf");
+    src:local("@/assets/fonts/SegoeBold.ttf");
 }
 .showcase {
   background: url("@/assets/background.png") no-repeat;
