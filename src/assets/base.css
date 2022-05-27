@@ -33,7 +33,7 @@ p {
   text-align: center;
 }
 .line {
-  width: 820px;
+  width: 60%;
   height: 0px;
   margin: 25px auto 25px auto;
 
@@ -42,7 +42,7 @@ p {
   border-radius: 100%;
 }
 .line-short {
-  width: 100px;
+  width: 10%;
   height: 0px;
   margin: 25px auto 25px auto;
 
