@@ -8,11 +8,12 @@ body {
 button {
   margin: 0 0 100px 0;
   text-decoration: none;
+  
   cursor: pointer;
 
-  font-family: "Segoe UI";
+  font-family: ubuntu;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
 
   color: #ffffff;
@@ -22,6 +23,14 @@ button {
   background: #ff1600;
   border-radius: 74px;
   border-style: none;
+}
+p {
+  font-family: ubuntu;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 50px;
+  text-align: center;
 }
 .line {
   width: 820px;

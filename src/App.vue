@@ -18,7 +18,7 @@
     <div class="rodrigo">
       <h1>Rodrigo Patricio</h1>
       <h2>UI • UX • FRONT-END</h2>
-      <a href="@/assets/doc/RodrigoPatricio.pdf" download><button>Download Resume</button></a>
+      <a href="documents/RodrigoPatricio.pdf" download="RodrigoPatricio.pdf"><button>Download Resume</button></a>
     </div>
 
     <img id="arrow" src="@/assets/icons/arrow.png" alt="arrow" />
@@ -155,7 +155,7 @@ export default {
 }
 @media only screen and (max-wdith: 640px) {
   .rodrigo h1 {
-  margin: 70px 0 0 0;
+  margin: 40px 0 0 0;
   }
 }
 .rodrigo h2 {
@@ -184,16 +184,7 @@ export default {
 
   color: #ffffff;
 }
-.about p {
-  font-family: ubuntu;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 53px;
-  text-align: center;
-
-  color: #ffffff;
-}
+.about p {color: #ffffff;}
 .tech {
   margin: 200px 0 150px 0;
   background: white;
@@ -206,21 +197,15 @@ export default {
 .tech h5 {
   font-family: ubuntu;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 40px;
-  line-height: 53px;
+  line-height: px;
   text-align: center;
 
   color: #000000;
 }
 .tech p {
-  font-family: ubuntu;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 32px;
-  line-height: 43px;
-  text-align: center;
-
+  line-height: 20px;
   color: #888888;
 }
 
@@ -238,16 +223,7 @@ export default {
 
   color: #000000;
 }
-.works p {
-  font-family: ubuntu;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 40px;
-  line-height: 53px;
-  text-align: center;
-
-  color: #888888;
-}
+.works p {color: #888888;}
 .contact {
   margin: 0 0 150px 0;
 }
