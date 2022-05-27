@@ -108,11 +108,7 @@ export default {
 
 <style>
 @import url("@/assets/base.css");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@800&display=swap");
-@font-face {
-    font-family: Segoe;
-    src:local("@/assets/fonts/SegoeBold.ttf");
-}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@800&family=Ubuntu:wght@400;500;700&display=swap');
 .showcase {
   background: url("@/assets/background.png") no-repeat;
   background-size: cover;
@@ -132,9 +128,9 @@ export default {
 }
 
 .social-medias p {
-  font-family: Segoe;
+  font-family: ubuntu;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   line-height: 27px;
   /* identical to box height */
@@ -165,7 +161,7 @@ export default {
 .rodrigo h2 {
   margin: 10px 0 80px 0;
 
-  font-family: Segoe;
+  font-family: ubuntu;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -189,7 +185,7 @@ export default {
   color: #ffffff;
 }
 .about p {
-  font-family: Segoe;
+  font-family: ubuntu;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -208,9 +204,9 @@ export default {
   flex-wrap: wrap;
 }
 .tech h5 {
-  font-family: Segoe;
+  font-family: ubuntu;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 40px;
   line-height: 53px;
   text-align: center;
@@ -218,9 +214,9 @@ export default {
   color: #000000;
 }
 .tech p {
-  font-family: Segoe;
+  font-family: ubuntu;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 32px;
   line-height: 43px;
   text-align: center;
@@ -243,9 +239,9 @@ export default {
   color: #000000;
 }
 .works p {
-  font-family: Segoe;
+  font-family: ubuntu;
   font-style: normal;
-  font-weight: 350;
+  font-weight: 400;
   font-size: 40px;
   line-height: 53px;
   text-align: center;
@@ -279,9 +275,9 @@ export default {
 }
 
 .social-medias-red p {
-  font-family: Segoe;
+  font-family: ubuntu;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-size: 20px;
   line-height: 27px;
   /* identical to box height */
