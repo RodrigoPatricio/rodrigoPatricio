@@ -3,22 +3,24 @@
     <div class="social-medias">
       <a :href="linkedinLink">
         <img src="@/assets/icons/linkedin.png" alt="Linkedin" />
-        <p>Linkedin</p>
+        <p class="white">Linkedin</p>
       </a>
       <a :href="githubLink">
         <img src="@/assets/icons/github.png" alt="GitHub" />
-        <p>GitHub</p>
+        <p class="white">GitHub</p>
       </a>
       <a :href="twitterLink">
         <img src="@/assets/icons/twitter.png" alt="Twitter" />
-        <p>Twitter</p>
+        <p class="white">Twitter</p>
       </a>
     </div>
 
     <div class="rodrigo">
       <h1>Rodrigo Patricio</h1>
       <h2>UI • UX • FRONT-END</h2>
-      <a href="documents/RodrigoPatricio.pdf" download="RodrigoPatricio.pdf"><button>Download Resume</button></a>
+      <a href="documents/RodrigoPatricio.pdf" download="RodrigoPatricio.pdf"
+        ><button>Download Resume</button></a
+      >
     </div>
 
     <img id="arrow" src="@/assets/icons/arrow.png" alt="arrow" />
@@ -69,24 +71,26 @@
 
   <section class="contact">
     <h5>GET IN TOUCH</h5>
-    <a href="mailto:rp.patricio@yahoo.com"><button>rp.patricio@yahoo.com</button></a>
-    <div class="social-medias-red">
+    <a href="mailto:rp.patricio@yahoo.com"
+      ><button>rp.patricio@yahoo.com</button></a
+    >
+    <div class="social-medias">
       <a :href="linkedinLink">
         <img src="@/assets/icons/linkedin-red.png" alt="Linkedin" />
-        <p>Linkedin</p>
+        <p class="red">Linkedin</p>
       </a>
       <a :href="githubLink">
         <img src="@/assets/icons/github-red.png" alt="GitHub" />
-        <p>GitHub</p>
+        <p class="red">GitHub</p>
       </a>
       <a :href="twitterLink">
         <img src="@/assets/icons/twitter-red.png" alt="Twitter" />
-        <p>Twitter</p>
+        <p class="red">Twitter</p>
       </a>
     </div>
   </section>
   <footer>
-    <p>© 2022 Rodrigo Patricio. All rights reserved.</p>
+    <p class="white">© 2022 Rodrigo Patricio. All rights reserved.</p>
   </footer>
 </template>
 
@@ -100,7 +104,7 @@ export default {
     return {
       linkedinLink: "https://linkedin.com/in/rodrigo-pinto-patricio",
       githubLink: "https://github.com/RodrigoPatricio",
-      twitterLink: "https://twitter.com/rodrigoo_patt"
+      twitterLink: "https://twitter.com/rodrigoo_patt",
     };
   },
 };
@@ -108,7 +112,7 @@ export default {
 
 <style>
 @import url("@/assets/base.css");
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@800&family=Ubuntu:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@800&family=Ubuntu:wght@400;500;700&display=swap");
 .showcase {
   background: url("@/assets/background.png") no-repeat;
   background-size: cover;
@@ -126,65 +130,19 @@ export default {
 
   text-decoration: none;
 }
-
 .social-medias p {
   font-family: ubuntu;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
-  line-height: 27px;
   /* identical to box height */
 
-  text-align: center;
-
-  color: #ffffff;
   margin: 0 6px 0 6px;
-  transition: 0.3s;
 }
-.rodrigo h1 {
-  margin: 70px 0 0 0;
 
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 96px;
-  line-height: 116px;
-  text-align: center;
-
+.about p {
   color: #ffffff;
 }
-@media only screen and (max-wdith: 640px) {
-  .rodrigo h1 {
-  margin: 40px 0 0 0;
-  }
-}
-.rodrigo h2 {
-  margin: 10px 0 80px 0;
-
-  font-family: ubuntu;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 32px;
-  line-height: 43px;
-  /* identical to box height */
-
-  color: #ff1600;
-
-  text-shadow: 0px 0px 15px #ff1600;
-}
-.about h3 {
-  margin: 110px 0 0 0;
-
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 49px;
-  /* identical to box height */
-
-  color: #ffffff;
-}
-.about p {color: #ffffff;}
 .tech {
   margin: 200px 0 150px 0;
   background: white;
@@ -194,87 +152,15 @@ export default {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-.tech h5 {
-  font-family: ubuntu;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: px;
-  text-align: center;
-
-  color: #000000;
-}
 .tech p {
-  line-height: 20px;
   color: #888888;
 }
 
-.works h5 {
-  margin: 200px 0 0 0;
-
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 40px;
-  line-height: 49px;
-  /* identical to box height */
-
-  text-align: center;
-
-  color: #000000;
+.works p {
+  color: #888888;
 }
-.works p {color: #888888;}
+
 .contact {
   margin: 0 0 150px 0;
-}
-.contact h5 {
-  margin: 100px 0 75px 0;
-
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 36px;
-  line-height: 44px;
-  /* identical to box height */
-
-  color: #000000;
-}
-.social-medias-red,
-.social-medias-red a {
-  margin: 0 2.5% 0 2.5%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: nowrap;
-
-  text-decoration: none;
-}
-
-.social-medias-red p {
-  font-family: ubuntu;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 27px;
-  /* identical to box height */
-
-  text-align: center;
-
-  color: #ff1600;
-  margin: 0 6px 0 6px;
-  transition: 0.3s;
-}
-footer {
-  background: #000000;
-  padding: 25px 0 25px 0;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  text-align: center;
-
-  color: #ffffff;
 }
 </style>

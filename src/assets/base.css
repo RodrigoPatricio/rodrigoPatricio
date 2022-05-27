@@ -8,7 +8,7 @@ body {
 button {
   margin: 0 0 100px 0;
   text-decoration: none;
-  
+
   cursor: pointer;
 
   font-family: ubuntu;
@@ -24,14 +24,81 @@ button {
   border-radius: 74px;
   border-style: none;
 }
-p {
+
+h1 {
+  margin: 70px 0 0 0;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  text-align: center;
+
+  color: #ffffff;
+}
+h2 {
+  margin: 10px 0 80px 0;
+
   font-family: ubuntu;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  /* identical to box height */
+
+  color: #ff1600;
+
+  text-shadow: 0px 0px 15px #ff1600;
+}
+h3 {
+  margin: 110px 0 0 0;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 49px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+p {
+  font-family: "Ubuntu";
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
-  line-height: 50px;
+  line-height: 46px;
   text-align: center;
 }
+footer {
+  background: #000000;
+  padding: 25px 0 25px 0;
+}
+footer p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+}
+
+.red {
+  color: #ff1600;
+}
+.white {
+  color: #fff;
+}
+
 .line {
   width: 60%;
   height: 0px;
@@ -49,4 +116,26 @@ p {
   border: 1px solid #ff1600;
   box-shadow: 0px 0px 15px #ff1600;
   border-radius: 100%;
+}
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3,h5 {
+    font-size: 32px;
+  }
+  p {
+    font-size: 24px;
+  }
+  button {
+    width: 250px;
+    height: 50px;
+    font-size: 18px;
+  }
+  .social-medias p {
+    display: none;
+  }
 }
