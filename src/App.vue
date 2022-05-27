@@ -110,7 +110,7 @@ export default {
 @import url("@/assets/base.css");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@800&display=swap");
 @font-face {
-    font-family: Segoe UI;
+    font-family: Segoe;
     src:local("@/assets/fonts/Segoe UI Bold.ttf");
 }
 .showcase {
@@ -132,7 +132,7 @@ export default {
 }
 
 .social-medias p {
-  font-family: Segoe UI;
+  font-family: Segoe;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
@@ -160,7 +160,7 @@ export default {
 .rodrigo h2 {
   margin: 10px 0 80px 0;
 
-  font-family: Segoe UI;
+  font-family: Segoe;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -184,7 +184,7 @@ export default {
   color: #ffffff;
 }
 .about p {
-  font-family: Segoe UI;
+  font-family: Segoe;
   font-style: normal;
   font-weight: 400;
   font-size: 40px;
@@ -203,7 +203,7 @@ export default {
   flex-wrap: wrap;
 }
 .tech h5 {
-  font-family: Segoe UI;
+  font-family: Segoe;
   font-style: normal;
   font-weight: 600;
   font-size: 40px;
@@ -213,7 +213,7 @@ export default {
   color: #000000;
 }
 .tech p {
-  font-family: Segoe UI;
+  font-family: Segoe;
   font-style: normal;
   font-weight: 600;
   font-size: 32px;
@@ -238,7 +238,7 @@ export default {
   color: #000000;
 }
 .works p {
-  font-family: Segoe UI;
+  font-family: Segoe;
   font-style: normal;
   font-weight: 350;
   font-size: 40px;
@@ -274,7 +274,7 @@ export default {
 }
 
 .social-medias-red p {
-  font-family: Segoe UI;
+  font-family: Segoe;
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
