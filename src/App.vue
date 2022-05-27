@@ -157,6 +157,11 @@ export default {
 
   color: #ffffff;
 }
+@media only screen and (max-wdith: 640px) {
+  .rodrigo h1 {
+  margin: 70px 0 0 0;
+  }
+}
 .rodrigo h2 {
   margin: 10px 0 80px 0;
 
