@@ -1,8 +1,9 @@
 # Rodrigo Patricio
 
 
-* Twitter: [@rodrigoo\_patt](https://twitter.com/rodrigoo\_patt)
+[![Twitter: rodrigoo\_patt](https://img.shields.io/twitter/follow/rodrigoo\_patt.svg?style=social)](https://twitter.com/rodrigoo\_patt)
 * Github: [@RodrigoPatricio](https://github.com/RodrigoPatricio)
+* LinkedIn: [@rodrigoo\_patt](https://linkedin.com/in/rodrigoo\_patt)
 
 
 I’m a Fullstack developer with over 6 years of experience in web and hybrid development.
