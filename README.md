@@ -1,5 +1,7 @@
-# rodrigoPatricio
+# Rodrigo Patricio
 
-This is my portfolio built using vue 3.
+I’m a Fullstack developer with over 6 years of experience in web and hybrid development.
 
-You can check the live website on https://rodrigo-patricio.vercel.app/
+As Dev manager, I work closely with the UI/UX team to ensure best performance and usability. 
+
+Leading the development team, I drive the product through all stages of the development process, handle logistics, oversees deadlines and ensure quality through the coding process for the delivered product.
