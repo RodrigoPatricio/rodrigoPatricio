@@ -18,7 +18,7 @@
     <div class="rodrigo">
       <h1>Rodrigo Patricio</h1>
       <h2>UI • UX • FRONT-END</h2>
-      <a href="../documents/RodrigoPatricio.pdf" download="RodrigoPatricio.pdf">
+      <a href="assets/RodrigoPatricio.pdf" download="RodrigoPatricio.pdf">
         <button>Download Resume</button></a>
     </div>
 
