@@ -1,5 +1,20 @@
-# rodrigoPatricio
+# [Rodrigo Patricio](https://rodrigo-patricio.vercel.app/)
 
-This is my portfolio built using vue 3.
 
-You can check the live website on https://rodrigo-patricio.vercel.app/
+[![Twitter: rodrigoo\_patt](https://img.shields.io/twitter/follow/rodrigoo\_patt.svg?style=social)](https://twitter.com/rodrigoo\_patt)
+* Github: [@RodrigoPatricio](https://github.com/RodrigoPatricio)
+* LinkedIn: [@rodrigoo\_patt](https://linkedin.com/in/rodrigoo\_patt)
+
+
+I’m a Fullstack developer with over 6 years of experience in web and hybrid development.
+
+As Dev manager, I work closely with the UI/UX team to ensure best performance and usability. 
+
+Leading the development team, I drive the product through all stages of the development process, handle logistics, oversees deadlines and ensure quality through the coding process for the delivered product.
+
+
+## 📝 License
+
+Copyright © 2022 [Rodrigo Patricio](https://github.com/RodrigoPatricio).
+
+All projects diplayed here are not licensed for comercial or personal use.
