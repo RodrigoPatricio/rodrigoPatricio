@@ -48,7 +48,7 @@
       <h5>FRONT-END</h5>
       <p>HTML5 / CSS3</p>
       <p>JQuery & JavaScript libraries</p>
-      <p>Vue.Js / PHP</p>
+      <p>Vue.js</p>
       <p>Responsive Design</p>
       <p>Sass</p>
       <p>Git</p>
